@@ -276,3 +276,63 @@ h1 {
   text-align: center;
   font-size: 0.95rem;
 }
+
+@media (max-width: 600px) {
+  .app {
+    width: 92%;
+    max-width: 100%;
+  }
+
+  .site-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 60px 0;
+  }
+
+  h1 {
+    display: block;
+    visibility: visible;
+    color: var(--text);
+    font-size: 2.6rem;
+    line-height: 1.1;
+    margin: 16px 0;
+  }
+
+  .section h2 {
+    display: block;
+    visibility: visible;
+    color: var(--text);
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+  .intro {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .eyebrow {
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
+
+  .project-grid,
+  .learning-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card,
+  .learning-card {
+    padding: 22px;
+  }
+}

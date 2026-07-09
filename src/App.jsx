@@ -58,6 +58,33 @@ function ProjectCard({ project }) {
 
 const projects = [
   {
+  type: "Power Automate / SharePoint Workflow",
+  title: "SharePoint Document Approval & Notification Automation",
+  problem:
+    "A team needed a reliable way to notify staff when monthly SharePoint documents were updated. The manual process created inconsistent communication, duplicate approval requests, and duplicate notification emails when multiple files were uploaded into the same folder.",
+  solution:
+    "Designed and implemented a Power Automate workflow that triggers when files are uploaded to a SharePoint document library, checks a tracker list to prevent duplicate approvals, sends a first-to-respond approval request, and sends one final notification email with a SharePoint folder link after approval.",
+  tools: [
+    "Power Automate",
+    "SharePoint Online",
+    "SharePoint Lists",
+    "Microsoft Approvals",
+    "Outlook",
+    "Conditional Logic",
+    "Concurrency Control"
+  ],
+  demonstrated: [
+    "Designed a folder-based approval workflow instead of triggering approval for every individual file",
+    "Used a SharePoint tracker list to prevent duplicate approval requests",
+    "Configured first-to-respond approvals for multiple reviewers",
+    "Used conditional logic to ignore folder creation events and process file uploads only",
+    "Improved workflow reliability by enabling trigger concurrency control",
+    "Troubleshot Apply to each loops, duplicate emails, save errors, and approval visibility issues"
+  ],
+  impact:
+    "Automated a manual document approval process, reduced duplicate approval requests and emails, improved staff communication, added approval tracking, and created a more maintainable workflow for future IT support."
+},
+  {
     type: "SharePoint / Document Management",
     title: "SharePoint Vehicle Log Management System",
     problem:
