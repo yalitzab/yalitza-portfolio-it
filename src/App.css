@@ -45,14 +45,18 @@ h1 {
 }
 
 .intro {
-  max-width: 760px;
+  max-width: 950px;
+  margin: 0 auto;
   color: var(--muted);
   font-size: 1.2rem;
   line-height: 1.7;
+  text-align: center;
 }
 
 .hero-buttons {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 14px;
   margin-top: 28px;
   flex-wrap: wrap;
@@ -295,8 +299,13 @@ h1 {
   }
 
   .hero {
-    min-height: auto;
+    align-items: center;
+    text-align: center;
     padding: 60px 0;
+  }
+
+  .hero-buttons {
+    justify-content: center;
   }
 
   h1 {
@@ -316,9 +325,8 @@ h1 {
     line-height: 1.2;
   }
 
-  .intro {
-    font-size: 1rem;
-    line-height: 1.6;
+   .intro {
+    text-align: center;
   }
 
   .eyebrow {
