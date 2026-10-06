@@ -57,8 +57,36 @@ function ProjectCard({ project }) {
 }
 
 const projects = [
+
   {
-  type: "Power Automate / SharePoint Workflow",
+  type: "Endpoint Support / Enterprise Systems",
+  title: "Endpoint Support & Windows 11 Lifecycle",
+  problem:
+    "Users needed reliable endpoint support during workstation replacements, Windows 11 upgrades, mobile device support, and hardware lifecycle work across an enterprise environment.",
+  solution:
+    "Supported device deployments, endpoint troubleshooting, user communication, inventory tracking, and escalation while working with Microsoft 365, Active Directory, endpoint management tools, and ticketing processes.",
+  tools: [
+    "Windows 10/11",
+    "Microsoft 365",
+    "Intune",
+    "Entra ID",
+    "Active Directory",
+    "ServiceNow",
+    "Endpoint Support"
+  ],
+  demonstrated: [
+    "Supported endpoint troubleshooting and device lifecycle processes",
+    "Assisted users during workstation replacements and Windows 11 upgrade work",
+    "Used Microsoft 365, Active Directory, and endpoint tools to support device readiness",
+    "Documented issues clearly for escalation, tracking, and follow-up",
+    "Communicated technical issues in a user-friendly way"
+  ],
+  impact:
+    "Supported reliable endpoint operations, improved user readiness during device changes, and helped maintain continuity in a public-sector IT environment."
+},
+
+  {
+  type: "Microsoft 365 Automation / SharePoint Workflow",
   title: "SharePoint Document Approval & Notification Automation",
   problem:
     "A team needed a reliable way to notify staff when monthly SharePoint documents were updated. The manual process created inconsistent communication, duplicate approval requests, and duplicate notification emails when multiple files were uploaded into the same folder.",
@@ -101,6 +129,7 @@ const projects = [
     impact:
       "Improved organization, reduced folder confusion, and created a more scalable process for non-technical staff."
   },
+
   {
     type: "Power Automate / Workflow Automation",
     title: "Community Events Approval Workflow",
@@ -118,41 +147,9 @@ const projects = [
     impact:
       "Helped standardize approvals, reduce manual follow-up, and improve communication around public-facing events."
   },
-  {
-    type: "Endpoint Support / Device Lifecycle",
-    title: "Endpoint Support & Windows 11 Lifecycle",
-    problem:
-      "Users needed reliable device support during workstation replacements, Windows 11 upgrades, mobile device support, and hardware lifecycle work.",
-    solution:
-      "Supported device deployments, troubleshooting, inventory tracking, user communication, and escalation while working with Microsoft 365 and endpoint management tools.",
-    tools: ["Windows 10/11", "Intune", "Entra ID", "ServiceNow"],
-    demonstrated: [
-      "Supported endpoint troubleshooting and device lifecycle processes",
-      "Assisted users during workstation replacements and Windows 11 upgrade work",
-      "Used Microsoft 365 and endpoint tools to support device readiness",
-      "Communicated technical issues clearly with users and escalation teams"
-    ],
-    impact:
-      "Supported reliable endpoint operations and helped users stay productive during device and system changes."
-  },
-  {
-    type: "Technical Documentation / Help Desk",
-    title: "IT Troubleshooting Knowledge Base",
-    problem:
-      "Recurring support issues needed clear troubleshooting steps so tickets could be handled consistently and escalated with the right information.",
-    solution:
-      "Created practical support documentation for issues such as jail call troubleshooting, caller ID problems, printer scan issues, and ticket ownership expectations.",
-    tools: ["ServiceNow", "Documentation", "Troubleshooting", "User Support"],
-    demonstrated: [
-      "Created repeatable troubleshooting steps for recurring support issues",
-      "Documented what information should be collected before escalation",
-      "Improved consistency in help desk ticket handling and user communication",
-      "Translated technical troubleshooting into clear instructions for support staff"
-    ],
-    impact:
-      "Improved consistency, helped collect better details before escalation, and supported clearer communication with users."
-  }
-];
+ 
+]
+ 
 
 function App() {
   return (
@@ -169,14 +166,14 @@ function App() {
       </header>
       
       <section className="hero">
-        <p className="eyebrow">IT Systems Support • Microsoft 365 Automation • SharePoint Workflow Solutions</p>
+        <p className="eyebrow">Enterprise Systems Support • Endpoint Management • Microsoft 365 Automation</p>
 
         <h1>Hi, I’m Yalitza.</h1>
 
         <p className="intro">
-          I’m an IT professional focused on user support, Microsoft 365 administration, 
-          SharePoint solutions, Power Automate workflows, endpoint management, and
-          business process improvement.
+          I’m an IT professional focused on enterprise systems support, endpoint
+          management, Microsoft 365 administration, SharePoint workflow automation,
+          troubleshooting, documentation, and business process improvement.
         </p>
 
         <div className="hero-buttons">
@@ -188,10 +185,11 @@ function App() {
       <section className="section about">
         <h2>About Me</h2>
         <p>
-          I am an IT professional with experience in public-sector technical support,
-          endpoint troubleshooting, Microsoft 365 administration, SharePoint support,
-          automation workflows, and user-focused problem solving. My background combines
-          customer service, technical documentation, and hands-on systems support.
+          I am an IT professional with experience supporting enterprise users, endpoints,
+          Microsoft 365 services, Active Directory, SharePoint solutions, automation
+          workflows, and technical documentation. My background combines hands-on
+          troubleshooting, user support, process improvement, and systems-focused problem
+          solving in a public-sector IT environment.
         </p>
       </section>
 
@@ -199,16 +197,24 @@ function App() {
         <h2>Technical Skills</h2>
 
         <div className="skills-grid">
-          <span>Microsoft 365 Admin Center</span>
-          <span>Intune</span>
-          <span>Entra ID</span>
-          <span>Active Directory</span>
-          <span>SharePoint Online</span>
-          <span>Power Automate</span>
-          <span>ServiceNow</span>
-          <span>Windows 10/11</span>
-          <span>SQL Troubleshooting</span>
-          <span>Technical Documentation</span>
+            <span>Microsoft 365 Admin Center</span>
+            <span>Microsoft Intune</span>
+            <span>Microsoft Entra ID</span>
+            <span>Microsoft Defender</span>
+            <span>Active Directory</span>
+            <span>SharePoint Online</span>
+            <span>Power Automate</span>
+            <span>Windows 365 / VDI Concepts</span>
+            <span>Endpoint Troubleshooting</span>
+            <span>Windows 10/11</span>
+            <span>CoreView</span>
+            <span>Cisco Umbrella</span>
+            <span>Cisco ISE Exposure</span>
+            <span>Tanium Training / Exposure</span>
+            <span>ServiceNow</span>
+            <span>Asset Inventory Support</span>
+            <span>SQL Troubleshooting</span>
+            <span>Technical Documentation</span>
         </div>
       </section>
 
