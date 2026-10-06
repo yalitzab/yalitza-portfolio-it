@@ -169,14 +169,14 @@ function App() {
       </header>
       
       <section className="hero">
-        <p className="eyebrow">IT Systems Support • Microsoft 365 • SharePoint Automation</p>
+        <p className="eyebrow">IT Systems Support • Microsoft 365 Automation • SharePoint Workflow Solutions</p>
 
         <h1>Hi, I’m Yalitza.</h1>
 
         <p className="intro">
-          I’m an IT professional focused on user support, endpoint management,
-          Microsoft 365 administration, SharePoint solutions, automation, and
-          public-sector technology operations.
+          I’m an IT professional focused on user support, Microsoft 365 administration, 
+          SharePoint solutions, Power Automate workflows, endpoint management, and
+          business process improvement.
         </p>
 
         <div className="hero-buttons">
